@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Util - Ficheros CSV</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>CREATE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crear Objeto CSV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>CREATE_STRUCTURE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crear estructura de datos con el Formato cargado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>CREATE_TABLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crear estructura de datos con el Formato cargado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>CS_MASK</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Máscaras de edición para Fechas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>CUSTOM_DOWNLOAD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Download fichero CSV con Formato personalizado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>CUSTOM_UPLOAD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Upload fichero CSV con Formato personalizado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>CV_BARRA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Separador Unix</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>CV_CONTRA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Separador Windows</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>CV_SEP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Separador CSV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>DOWNLOAD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Download fichero CSV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>DOWNLOAD_LOCAL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Descargar Fichero al ordenador Local</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>DOWNLOAD_SERVER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Descargar Fichero al Servidor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>F4_FILE_LOCAL_OPEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Seleccionar fichero Local</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>F4_FILE_LOCAL_SAVE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Guardar fichero Local</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>F4_FILE_SERVER_FULLSCREEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Seleccionar fichero Servidor en programa a pantalla completa</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>F4_FILE_SERVER_POPUP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Seleccionar fichero Servidor en ventana emergente</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>F4_FOLDER_LOCAL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Ayuda búsqueda Carpeta Local</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>F4_FOLDER_SERVER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Ayuda búsqueda Carpeta Servidor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>FORMAT_FROM_DATE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Formatear campo fecha desde CSV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>FORMAT_FROM_LINE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Formatear datos desde CSV con la configuración de campos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>FORMAT_FROM_MAP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Formatear campo vía mapeo de valores desde CSV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>FORMAT_FROM_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Formatear campo numérico desde CSV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>FORMAT_TO_DATE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Formatear campo fecha a CSV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>FORMAT_TO_LINE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Formatear datos a CSV con la configuración de campos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>FORMAT_TO_MAP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Formatear campo vía mapeo de valores a CSV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>FORMAT_TO_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Formatear campo numérico a CSV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>FROM_CSV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convertir datos tabla Plan a tabla de datos SAP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>MO_CONV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CSV Converter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>MT_FIELD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Campos CSV a tratar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>MT_FORMAT_DAT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tabla de campos con formato fecha</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>MT_FORMAT_MAP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tabla de campos con formato mapeo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>MT_FORMAT_NUM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tabla de campos con formato numérico</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>MT_PLAIN_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tabla de datos cargados SIN formato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>MV_DDIC_TYPE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Estructura Diccionario</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>MV_FILENAME</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre fichero</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>MV_FILEPATH</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Ruta Fichero</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>MV_FILE_LENGTH</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Longitud Fichero</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>MV_FILE_SEP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Separador Fichero</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>MV_SOURCE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Local (X) o Servidor ()</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>SET_DDIC_FORMAT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Establecer estructura Diccionario como formato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>SET_FORMAT_DATE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fijar formato campo fecha</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>SET_FORMAT_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fijar formato campo numérico</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>SET_FORMAT_VALUE_MAP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fijar formato campo vía mapeo de valores</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>SET_MANUAL_FORMAT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Definición de campos manual como formato</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>TO_CSV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convertir datos y pasar a tabla CSV (Tabla Plain)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>UPLOAD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Upload fichero CSV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>UPLOAD_LOCAL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cargar Fichero desde el ordenador Local</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_UTIL_CSV</CLSNAME>
+     <CMPNAME>UPLOAD_SERVER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cargar Fichero desde el Servidor</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_UTIL_CSV_DOWNLOAD</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Util - Descarga personalizada Ficheros CSV</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_CSV_DOWNLOAD</CLSNAME>
+     <CMPNAME>CONVERT_TO_CSV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Ejecutar conversión con el formato configurado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_CSV_DOWNLOAD</CLSNAME>
+     <CMPNAME>DOWNLOAD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Descargar datos convertidos a CSV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_CSV_DOWNLOAD</CLSNAME>
+     <CMPNAME>GET_CSV</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recuperar datos CSV generados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_CSV_DOWNLOAD</CLSNAME>
+     <CMPNAME>SET_FORMAT_DATE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fijar formato campo fecha</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_CSV_DOWNLOAD</CLSNAME>
+     <CMPNAME>SET_FORMAT_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fijar formato campo numérico</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_UTIL_CSV_DOWNLOAD</CLSNAME>
+     <CMPNAME>SET_FORMAT_VALUE_MAP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fijar formato campo vía mapeo de valores</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
